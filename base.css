@@ -14,12 +14,13 @@
 }
 body {
     background-image: var(--image) !important;
-    background-size: 600px !important;
+    background-size: cover !important;
     background-position: center !important;
     position: relative !important;
     background-repeat: no-repeat !important;
     background-color: black !important
 }
+
 
 .chatContent-a9vAAp::before {
     background-color: transparent;
@@ -34,9 +35,6 @@ body {
     font-weight: 600;
 }
 
-.message-2qnXI6 {
-    border-left: var(--detail) 3px solid;
-}
 
 .item-2hkk8m,.unreadPill-2HyYtt,.btn-11C5_u,.content-1o0f9g {
     background-color: var(--detail) !important
