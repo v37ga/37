@@ -1,0 +1,29 @@
+/*v37ga*/
+/**
+ * @name CozyForestTheme
+ * @description Cozy animated forest background.
+ * @author v37ga
+ * @version 1.0.0
+ * @authorId 368194347222695938
+ * @invite aSrxPjaNVh
+ * @website https://v37ga.github.io/
+ * @source https://v37ga.github.io/cozyforesttheme/
+ * @updateUrl https://v37ga.github.io/cozyforesttheme/base.css
+ */
+/*repository - no touching!-*/
+@import url('https://v37ga.github.io/cozyforesttheme/base.css');
+
+
+
+
+/*        customize here ↓       */
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+/*Style*/
+:root {
+   /*Background color (behind background image)  */--bkgcolor: rgba(13,13,13) !important;
+   /*Details color                               */--detail: rgba(0,0,0,0.2);
+   /*Background image/gif                        */--image: url("https://wallpaperaccess.com/full/775146.gif");
+}
