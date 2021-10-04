@@ -1,0 +1,15 @@
+/**
+ * @name DayCycleDiscord
+ * @author v37ga
+ * @version 3.0.0
+ * @description Required theme for the DayCycleDiscord plugin.
+ * @source https://github.com/DiscordStyles/DarkMatter/
+*/
+
+@import url('https://v37ga.github.io/37/cozyforesttheme/base.css');
+
+/* Variables */
+:root {
+    --bkgcolor: rgba(13,13,13) !important;
+    --detail: transparent;
+}
