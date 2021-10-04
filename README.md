@@ -1,5 +1,5 @@
 # v37ga
-ig: @fabio.veiga_
+ig: <a href="https://www.instagram.com/fabio.veiga_/">@fabio.veiga_</a>
 
 Projects:
 <br>
