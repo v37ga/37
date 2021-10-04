@@ -6,7 +6,7 @@ Projects:
 
 [1] <a href="https://github.com/v37ga/37/tree/main/daycyclediscord">Day Cycle Discord</a> (betterdiscord extension/theme)
 <br>
-<i> Changes your Discord's background based at the IRL time - images customizable.</i>
+<i> Changes your Discord's background based at the IRL time - customizable images.</i>
 ![daycycle](https://user-images.githubusercontent.com/71238693/135933884-19f97f74-d963-4c77-9bbf-1b8441f5b7fe.png)
 
 <br>
