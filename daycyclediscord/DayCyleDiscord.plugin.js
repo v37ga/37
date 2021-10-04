@@ -6,139 +6,139 @@
  * @invite inviteCode
  * @authorId 368194347222695938
  * @authorLink https://twitter.com/veigaffa
- * @website https://v37ga.github.io/
- * @source https://gist.github.com/rauenzi/e5f4d02fc3085a53872b0236cd6f8225
+ * @website https://v37ga.github.io/37/
+ * @source https://github.com/v37ga/37/tree/main/daycyclediscord
  */
 
  module.exports = class ExamplePlugin {
-  load() {} 
+    load() {} 
+  
+    start() {
+      //manhã https://wallpapercave.com/wp/wp6689710.jpg
+      //tarde https://images8.alphacoders.com/386/386749.jpg    
+      //noite https://i.pinimg.com/originals/0e/97/91/0e979187086303dc147753216d3b701c.jpg
+  
+      root()
+      function root(){
 
-  start() {
-    //manhã https://wallpapercave.com/wp/wp6689710.jpg
-    //tarde https://images8.alphacoders.com/386/386749.jpg    
-    //noite https://i.pinimg.com/originals/0e/97/91/0e979187086303dc147753216d3b701c.jpg
+        var imagemManha = 'https://wallpapercave.com/wp/wp6689710.jpg'
+        var imagemTarde = 'https://wallpaperaccess.com/full/685208.jpg'
+        var imagemNoite = 'https://i.pinimg.com/originals/0e/97/91/0e979187086303dc147753216d3b701c.jpg'
 
-    root()
-    function root(){
+        novoHorario()
+        function novoHorario(){
+          window.dia = new Date()
+          window.hr = window.dia.getHours()
+          window.min = window.dia.getMinutes()
+        }
 
-      var imagemManha = 'https://wallpapercave.com/wp/wp6689710.jpg'
-      var imagemTarde = 'https://wallpaperaccess.com/full/685208.jpg'
-      var imagemNoite = 'https://i.pinimg.com/originals/0e/97/91/0e979187086303dc147753216d3b701c.jpg'
-
-      novoHorario()
-      function novoHorario(){
-        window.dia = new Date()
-        window.hr = window.dia.getHours()
-        window.min = window.dia.getMinutes()
-      }
-
-      window.currentImage = 0 
-
-      const body = document.querySelector('body')
-      var min = window.min
-
-
-      if (window.hr >= 6 && window.hr <= 12){
-        
-        body.style = `background-image: url(${imagemManha}) !important`
-        console.log(`Bom dia!`)
-      }
-      else if (window.hr == 12 && min > 0){
-        
-        body.style = `background-image: url(${imagemTarde}) !important`
-        console.log(`Boa tarde!`)
-      }
-      else if (window.hr >= 13 && window.hr <= 18){
-        
-        body.style = `background-image: url(${imagemTarde}) !important`
-        console.log(`Boa tarde!`)
-      }
-      else if (window.hr == 18 && min > 0){
-        console.log(`Boa noite!`)
-        body.style = `background-image: url(${imagemNoite}) !important`
-      }
-      else if (window.hr >= 19){
-        console.log(`Boa noite!`)
-        body.style = `background-image: url(${imagemNoite}) !important`
-      }
+        window.currentImage = 0 
+  
+        const body = document.querySelector('body')
+        var min = window.min
 
 
-      indexGrab()
-      function indexGrab(){
         if (window.hr >= 6 && window.hr <= 12){
           
-          window.currentImage = 1
-          checkAndChange()
+          body.style = `background-image: url(${imagemManha}) !important`
+          console.log(`Bom dia!`)
         }
         else if (window.hr == 12 && min > 0){
           
-          window.currentImage = 2
-          checkAndChange()
+          body.style = `background-image: url(${imagemTarde}) !important`
+          console.log(`Boa tarde!`)
         }
         else if (window.hr >= 13 && window.hr <= 18){
           
-          window.currentImage = 2
-          checkAndChange()
+          body.style = `background-image: url(${imagemTarde}) !important`
+          console.log(`Boa tarde!`)
         }
         else if (window.hr == 18 && min > 0){
-          
-          window.currentImage = 3
-          checkAndChange()
+          console.log(`Boa noite!`)
+          body.style = `background-image: url(${imagemNoite}) !important`
         }
         else if (window.hr >= 19){
-          
-          window.currentImage = 3
-          checkAndChange()
+          console.log(`Boa noite!`)
+          body.style = `background-image: url(${imagemNoite}) !important`
         }
-      }
-      
-      function checkAndChange(){
 
-        if(window.currentImage == 1){
-          
-          if (window.hr == 12 && window.min > 0){
+
+        indexGrab()
+        function indexGrab(){
+          if (window.hr >= 6 && window.hr <= 12){
             
-            body.style = `background-image: url(${imagemTarde}) !important`
-            console.log(`Boa tarde! Mudando o wallpaper.`)
+            window.currentImage = 1
+            checkAndChange()
+          }
+          else if (window.hr == 12 && min > 0){
+            
             window.currentImage = 2
+            checkAndChange()
           }
           else if (window.hr >= 13 && window.hr <= 18){
             
-            body.style = `background-image: url(${imagemTarde}) !important`
-            console.log(`Boa tarde! Mudando o wallpaper.`)
             window.currentImage = 2
+            checkAndChange()
           }
-        }
-        if(window.currentImage == 2){
-          if (window.hr == 18 && window.min > 0 ){
-              
-            body.style = `background-image: url(${imagemNoite}) !important`
-            console.log(`Boa Noite/Madrugada! Mudando o wallpaper.`)
-            window.currentImage = 3
-          }
-          else if (window.hr > 18){
+          else if (window.hr == 18 && min > 0){
             
-            body.style = `background-image: url(${imagemNoite}) !important`
-            console.log(`Boa Noite/Madrugada! Mudando o wallpaper.`)
             window.currentImage = 3
+            checkAndChange()
           }
-       }
-       if(window.currentImage == 3){
-        if (window.hr >= 6 && window.hr <= 12){
-          console.log(`Bom dia! Mudando o wallpaper.`)
-          body.style = `background-image: url(${imagemManha}) !important`
-          window.currentImage = 1
+          else if (window.hr > 19){
+            
+            window.currentImage = 3
+            checkAndChange()
+          }
         }
-       }
-    }
+        
+        function checkAndChange(){
 
-      var intervalId = setInterval(function() {
+          if(window.currentImage == 1){
+            
+            if (window.hr == 12 && window.min > 0){
+              
+              body.style = `background-image: url(${imagemTarde}) !important`
+              console.log(`Boa tarde! Mudando o wallpaper.`)
+              window.currentImage = 2
+            }
+            else if (window.hr >= 13 && window.hr <= 18){
+              
+              body.style = `background-image: url(${imagemTarde}) !important`
+              console.log(`Boa tarde! Mudando o wallpaper.`)
+              window.currentImage = 2
+            }
+          }
+          if(window.currentImage == 2){
+            if (window.hr == 18 && window.min > 0 ){
+                
+              body.style = `background-image: url(${imagemNoite}) !important`
+              console.log(`Boa Noite/Madrugada! Mudando o wallpaper.`)
+              window.currentImage = 3
+            }
+            else if (window.hr > 18){
+              
+              body.style = `background-image: url(${imagemNoite}) !important`
+              console.log(`Boa Noite/Madrugada! Mudando o wallpaper.`)
+              window.currentImage = 3
+            }
+         }
+         if(window.currentImage == 3){
+          if (window.hr >= 6 && window.hr <= 12){
+            console.log(`Bom dia! Mudando o wallpaper.`)
+            body.style = `background-image: url(${imagemManha}) !important`
+            window.currentImage = 1
+          }
+         }
+      }
 
-        novoHorario()
-        checkAndChange()   
-      }, 5000);
-    }
-  } 
-  stop() {} 
-  observer(changes) {}
-}
+        var intervalId = setInterval(function() {
+
+          novoHorario()
+          checkAndChange()   
+        }, 5000);
+      }
+    } 
+    stop() {} 
+    observer(changes) {}
+  }
