@@ -1,15 +1,17 @@
 # 37
 ig: @fabio.veiga_
 
-<h2>Projects: </h2>
+Projects:
 [1] <a href="https://github.com/v37ga/37/tree/main/daycyclediscord">Day Cycle Discord</a> (betterdiscord extension/theme)
 <br>
 <i> Changes your Discord's background based at the IRL time - images customizable.</i>
+![daycycle](https://user-images.githubusercontent.com/71238693/135933884-19f97f74-d963-4c77-9bbf-1b8441f5b7fe.png)
+
 <br>
-![daycycle](https://user-images.githubusercontent.com/71238693/135928431-82c80619-4dbd-4414-a13a-c73563df2586.png)
 
 [2] <a href="https://github.com/v37ga/37/tree/main/cozyforesttheme">Cozy Forest Theme</a> (betterdiscord theme)
 <br>
 <i> Cozy forest background gif - Discord theme</i>
-![CozyForest](https://user-images.githubusercontent.com/71238693/135925776-d08bce6b-234c-4423-8e5e-e3bdcb22f566.png)
+![CozyForest](https://user-images.githubusercontent.com/71238693/135933776-8d459d16-8d14-411e-8b05-e88a12fb8a26.png)
+
 
