@@ -1,7 +1,9 @@
-# 37
+# v37ga
 ig: @fabio.veiga_
 
 Projects:
+<br>
+
 [1] <a href="https://github.com/v37ga/37/tree/main/daycyclediscord">Day Cycle Discord</a> (betterdiscord extension/theme)
 <br>
 <i> Changes your Discord's background based at the IRL time - images customizable.</i>
