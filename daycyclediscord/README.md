@@ -11,7 +11,7 @@ Changes the background of your discord based on what time is it.
 2. <a href="https://github.com/v37ga/37/raw/main/daycyclediscord/download/Day%20Cycle%20Discord%201.0.0%20.rar">Download DayCycleDiscord.</a>
 3. Place the file 'DayCycleDiscord.css' in the betterdiscord's theme folder.
 4. Place the file 'DayCycleDiscord.plugin.js' in the betterdiscord's plugin folder.
-5. Activate the plugin in betterdiscord config.
+5. Activate both the plugin and the theme in betterdiscord config.
 # Customize
 You can change the background images.
 the variables 'imagemManha', 'imagemTarde' and 'imagemNoite' located at lines 24-26 of the 'DayCycleDiscord.plugin.js' file are responsible for that.
