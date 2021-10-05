@@ -9,7 +9,7 @@ Changes the background of your discord based on what time is it.
 # Installation
 1. <a href="https://betterdiscord.app/">Download and install betterdiscord.</a>
 2. <a href="https://github.com/v37ga/37/raw/main/daycyclediscord/download/Day%20Cycle%20Discord%201.0.0%20.rar">Download DayCycleDiscord.</a>
-3. Place the file 'DayCycleDiscord.css' in the betterdiscord's theme folder.
+3. Place the file 'DayCycleDiscord.theme.css' in the betterdiscord's theme folder.
 4. Place the file 'DayCycleDiscord.plugin.js' in the betterdiscord's plugin folder.
 5. Activate both the plugin and the theme in betterdiscord config.
 # Customize
