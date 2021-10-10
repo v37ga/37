@@ -101,3 +101,7 @@ body {
  .container-1D34oG,.searchBar-6Kv8R2,.sidebarRegion-VFTUkN{
     background: rgba(0,0,0,0.5) !important;
  }
+ .sidebarRegion-VFTUkN{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.89) 0%, rgba(0,0,0,0.10) 100%);
+}
