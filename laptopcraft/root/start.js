@@ -10,16 +10,22 @@
     console.log(itens)
 
     for (let i = 0; i <= (itens.length - 1); i++){
-        function fimAnimacao(e){
+        /*function fimAnimacao(e){
             e.addEventListener("animationend", () =>{
                 itens[i].classList.add("show");
                 itens[i].classList.remove("hidden")       
             })
-        }
+        }*/
         if (i == 0){
-            fimAnimacao(blocoCentral);
+            blocoCentral.addEventListener("animationend", () =>{
+                itens[i].classList.add("show");
+                itens[i].classList.remove("hidden")       
+            })
         }else{
-            fimAnimacao(itens[i-1])
+            itens[i-1].addEventListener("animationend", () =>{
+                itens[i].classList.add("show");
+                itens[i].classList.remove("hidden")       
+            })
         }  
     }
 
