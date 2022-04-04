@@ -23,3 +23,8 @@
 #slime img{
     margin-top: 43px;
 }
+.query__div a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}

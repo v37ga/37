@@ -21,3 +21,30 @@
 .moveup{
     animation: 0.8s moveUP;
 }
+.slideLeft{
+    animation: .3s slideLeft;
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(-500px);
+        filter: blur(10px);
+    }
+    100%{
+        transform: translateX(0%);
+        filter: blur(0px);
+    }
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0 !important;
+        filter: blur(5px);
+    }
+    100%{
+        opacity: 100% !important;
+        filter: blur(0px);
+    }
+}
+.show{
+    animation: .5s appear;
+}

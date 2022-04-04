@@ -4,27 +4,7 @@ body{
     background:black;
 }
 
-@keyframes slideLeft{
-    0%{
-        transform: translateX(-500px);
-        filter: blur(10px);
-    }
-    100%{
-        transform: translateX(0%);
-        filter: blur(0px);
-    }
-}
 
-@keyframes appear{
-    0%{
-        opacity: 0 !important;
-        filter: blur(5px);
-    }
-    100%{
-        opacity: 100% !important;
-        filter: blur(0px);
-    }
-}
 
 .bloco-central{
     animation: .2s ease-out slideLeft;
@@ -48,9 +28,6 @@ hr{
     flex-basis: 100%;
     width: 10px !important;
 }
-.show{
-    animation: .5s appear;
-}
 .hidden{
     opacity: 0;
 }
@@ -60,11 +37,13 @@ hr{
     margin-top: 15px;
 }
 .query a{
-    text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;    
     color: white;
     font-size: 25px;
     display: block;
+}
+.botaoVolta{
+    font-family: 'Bebas Neue', cursive;
 }
 .query a:hover{
     text-decoration:underline;
@@ -87,7 +66,4 @@ hr{
     border-radius: 5px;
     padding: 15px 0;
     text-decoration: none !important;
-}
-.slideLeft{
-    animation: .3s slideLeft;
 }
