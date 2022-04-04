@@ -39,20 +39,25 @@ function trocaSessao(e){
     cria()
     }
     function cria(){
-        $("<a>", { text: "VOLTAR", href: "#"}).appendTo(".voltar");
-        const span = document.querySelector(".voltar")
-        span.children[0].classList.add("botaoVolta")
+        $("<a>", { text: "../home", href: "#"}).appendTo(".query");
+        const query = document.querySelector(".query")
+        var voltar = query.children[0]
+
+        voltar.classList.add("botaoVolta")
         
-        span.addEventListener("click", ()=>{
+        query.children[0].addEventListener("click", ()=>{
             slime.classList.remove("moveup")
             slime.classList.remove("show")
             slime.classList.add("fadeout")
-            span.classList.add("fadeout")
+            query.classList.add("fadeout")
             
         })
-        span.addEventListener("animationend", () => {
+        query.addEventListener("animationend", () => {
             slime.remove()
-            window.open("https://v37ga.github.io/37/laptopcraft/","_self")
+            //LOCAL <----------------------------
+            window.open("../index.html","_self")
+            //GIT <------------------------------------
+            //window.open("https://v37ga.github.io/37/laptopcraft/","_self")
         })
     }
 }
