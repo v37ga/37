@@ -52,7 +52,7 @@ function trocaSessao(e){
         })
         span.addEventListener("animationend", () => {
             slime.remove()
-            window.open("../index.html","_self")
+            window.open("https://v37ga.github.io/37/laptopcraft/","_self")
         })
     }
 }
