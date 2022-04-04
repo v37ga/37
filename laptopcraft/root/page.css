@@ -54,3 +54,18 @@ hr{
 .hidden{
     opacity: 0;
 }
+.voltar{
+    flex-basis: 100%;
+    text-align:center;
+    margin-top: 15px
+}
+.voltar a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 25px
+}
+.voltar a:hover{
+    text-decoration:underline;
+    color: aliceblue;
+}
