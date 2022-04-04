@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background:black;
+}
+
+@keyframes slideLeft{
+    0%{
+        transform: translateX(-500px);
+        filter: blur(10px);
+    }
+    100%{
+        transform: translateX(0%);
+        filter: blur(0px);
+    }
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.bloco-central{
+    animation: .2s ease-out slideLeft;
+    color:white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px auto 100px auto;
+    
+}
+.bloco-central h1:nth-child(2){
+    font-size:95px;
+    margin-top: -13px;
+}
+#bloco-central__titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+hr{
+    flex-basis: 100%;
+    width: 10px !important;
+}
+.show{
+    animation: .5s appear;
+}
+.hidden{
+    opacity: 0;
+}

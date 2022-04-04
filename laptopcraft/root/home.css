@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
+
+.botao{
+    text-decoration: none;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: 0 3px
+}
+
+.botao:hover{
+    background: rgb(255, 255, 255) !important;
+    transition: .2s;
+    color: black;
+}
+.bloco-central__nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px
+}
+#slime img{
+    margin-top: 43px;
+    margin-left: 13px;
+}
