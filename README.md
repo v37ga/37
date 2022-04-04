@@ -17,10 +17,9 @@ Projects:
 ![CozyForest](https://user-images.githubusercontent.com/71238693/135933776-8d459d16-8d14-411e-8b05-e88a12fb8a26.png)
 
 <br>
-[3] <a href="#">LapTopCraft (1.16.5)</a>
+[3] <a href="https://github.com/v37ga/37/tree/main/cozyforesttheme">LapTopCraft</a> (1.16.5)
 <br>
-<i> Lite minecraft modpack. Mechanical engineering, machinery, etc. </i>
-![LPC](https://preview.redd.it/rcpgibdaqkl61.png?width=1920&format=png&auto=webp&s=c5b0c957843c37c6a7b6cc734c3934465c955415)
-
+<i> Lite minecraft modpack. Mechanical engineering, machinery, etc.</i>
+![CozyForest](https://user-images.githubusercontent.com/71238693/135933776-8d459d16-8d14-411e-8b05-e88a12fb8a26.png)
 
 
