@@ -39,7 +39,8 @@ function trocaSessao(e){
     cria()
     }
     function cria(){
-        $("<a>", { text: "../home", href: "#"}).appendTo(".query");
+        var home = $("<a>", { text: "../home", href: "#", class:"slideLeft"}).appendTo(".query");
+        
         const query = document.querySelector(".query")
         var voltar = query.children[0]
 
@@ -50,14 +51,27 @@ function trocaSessao(e){
             slime.classList.remove("show")
             slime.classList.add("fadeout")
             query.classList.add("fadeout")
-            
+            query.addEventListener("animationend", () => {
+                slime.remove()
+                //LOCAL <----------------------------
+                //window.open("../index.html","_self")
+                //GIT <------------------------------------
+                window.open("https://v37ga.github.io/37/laptopcraft/","_self")
+            })
         })
-        query.addEventListener("animationend", () => {
-            slime.remove()
-            //LOCAL <----------------------------
-            window.open("../index.html","_self")
-            //GIT <------------------------------------
-            //window.open("https://v37ga.github.io/37/laptopcraft/","_self")
-        })
+
+    //botoes
+            $("<div>", {class: "query__div"}).appendTo(".query");
+
+            var client = $("<a>", { text: "download client", 
+            href: "https://github.com/v37ga/37/raw/main/laptopcraft/files/lastest/LapTopCraft.rar",
+            class: "client slideLeft"}).appendTo(".query__div");
+
+            var server = $("<a>", { text: "download server",
+            href: "https://v37ga.github.io/37/laptopcraft/",
+            class: "server slideLeft"}).appendTo(".query__div"); 
+        
+        
+        
     }
 }
