@@ -16,4 +16,10 @@ Projects:
 <i> Cozy forest background gif - Discord theme</i>
 ![CozyForest](https://user-images.githubusercontent.com/71238693/135933776-8d459d16-8d14-411e-8b05-e88a12fb8a26.png)
 
+<br>
+[3] <a href="#">LapTopCraft (1.16.5)
+<br>
+<i> Lite minecraft modpack. Mechanical engineering, machinery, etc. </i>
+![LPC]
+
 
