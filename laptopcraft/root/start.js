@@ -1,6 +1,6 @@
 (function () {
     var blocoCentral = document.querySelector(".bloco-central");
-    var hr = document.querySelectorAll("hr");
+    var hr = document.getElementsByTagName("hr");
     var botao = document.querySelectorAll(".botao")
     var slime = document.querySelector("#slime")
     console.log(botao)
