@@ -1,0 +1,23 @@
+@keyframes fadeoutA{
+    0%{
+        opacity: 100;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.fadeout{
+    animation: 0.8s fadeoutA;
+}
+
+@keyframes moveUP{
+    0%{
+        transform: translateY(0px)
+    }
+    100%{
+        transform: translateY(-198px)
+    }
+}
+.moveup{
+    animation: 0.8s moveUP;
+}
