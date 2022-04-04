@@ -17,9 +17,10 @@ Projects:
 ![CozyForest](https://user-images.githubusercontent.com/71238693/135933776-8d459d16-8d14-411e-8b05-e88a12fb8a26.png)
 
 <br>
-[3] <a href="https://github.com/v37ga/37/tree/main/cozyforesttheme">LapTopCraft</a> (1.16.5)
+[3] <a href="https://v37ga.github.io/37/laptopcraft/">LapTopCraft</a> (1.16.5)
 <br>
 <i> Lite minecraft modpack. Mechanical engineering, machinery, etc.</i>
-![CozyForest](https://user-images.githubusercontent.com/71238693/135933776-8d459d16-8d14-411e-8b05-e88a12fb8a26.png)
+![Screenshot_13](https://user-images.githubusercontent.com/71238693/161650334-2b6c0265-2561-4355-9325-3a03f65f75db.png)
+
 
 
