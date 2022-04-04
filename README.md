@@ -20,6 +20,6 @@ Projects:
 [3] <a href="#">LapTopCraft (1.16.5)</a>
 <br>
 <i> Lite minecraft modpack. Mechanical engineering, machinery, etc. </i>
-![LPC]()
+![LPC](https://preview.redd.it/rcpgibdaqkl61.png?width=1920&format=png&auto=webp&s=c5b0c957843c37c6a7b6cc734c3934465c955415)
 
 
