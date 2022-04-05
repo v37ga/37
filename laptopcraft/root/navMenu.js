@@ -18,6 +18,8 @@ function trocaSessao(e){
 
     for (let i = 0;i <= elementos.length - 1; i++){
         slime.classList.add("moveup")
+        slime.classList.remove("show")
+        elementos[i].classList.remove("show");
         elementos[i].classList.add("fadeout");       
     }
 
@@ -54,7 +56,7 @@ function trocaSessao(e){
             query.addEventListener("animationend", () => {
                 slime.remove()
                 //LOCAL <----------------------------
-                //window.open("../index.html","_self")
+                // window.open("index.html","_self")
                 //GIT <------------------------------------
                 window.open("https://v37ga.github.io/37/laptopcraft/","_self")
             })
