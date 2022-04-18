@@ -66,7 +66,7 @@ function trocaSessao(e){
             $("<div>", {class: "query__div"}).appendTo(".query");
 
             var client = $("<a>", { text: "download client", 
-            href: "https://github.com/v37ga/37/raw/main/laptopcraft/files/lastest/LapTopCraft.rar",
+            href: "https://github.com/v37ga/LapTopCraft/raw/main/files/lastest/LapTopCraft.rar",
             class: "client slideLeft"}).appendTo(".query__div");
 
             var server = $("<a>", { text: "download server",
